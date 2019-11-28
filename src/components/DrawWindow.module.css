@@ -1,0 +1,27 @@
+.DrawWindow{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: left;
+    align-items: flex-start;
+}
+.button {
+    margin: 10px 5px;
+    background-color: #32384b;
+    color: #ffffff;
+    width: 90px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.input{
+    margin: 0 5px;
+    width: 70px;
+}
+.buttonWithSketchPicker{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
